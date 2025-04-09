@@ -1,0 +1,48 @@
+# ===============================================
+# TensorFlow GPU-Projekt für Ziffernerkennung
+# Umgebung: Windows native
+# TensorFlow-Version: 2.10.0
+# Python-Version: 3.10.x
+# CUDA-Version: 11.2
+# cuDNN-Version: 8.1
+# ===============================================
+
+# Hauptbibliothek für Deep Learning (GPU)
+tensorflow==2.10.0
+
+# Numerische Operationen (kompatibel mit TF 2.10)
+numpy==1.23.5
+
+# Datenanalyse & Tabellen
+pandas==1.5.3
+
+# Mathematische Plot-Erstellung
+matplotlib>=3.3.0
+
+# Fortgeschrittene Diagramme (optional)
+seaborn>=0.11.0
+
+# Fortschrittsbalken (optional)
+tqdm>=4.60.0
+
+# Laden & Speichern von .h5 Dateien
+h5py==3.7.0
+
+# Machine Learning Hilfsmodule (Datenaufteilung, StandardScaler etc.)
+scikit-learn>=0.24.0
+
+# Für eventuelle Visualisierung der Modellarchitektur (optional)
+graphviz
+pydot
+
+# ===============================================
+# Hinweis:
+# Die Nutzung von GPU erfordert:
+# - CUDA Toolkit 11.2 (NICHT 12.x oder 11.8)
+# - cuDNN 8.1
+# - Umgebungsvariablen:
+#     CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2
+#     Path enthält:
+#         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin
+#         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp
+# ===============================================
